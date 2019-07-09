@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    * {
+      margin: 0;
+    }
+    html, body {
+      height: 100%;
+    }
+    .page-wrap {
+      min-height: 100%;
+      /* equal to footer height */
+      margin-bottom: 0px;
+    }
+    .page-wrap:after {
+      content: "";
+      display: block;
+    }
+    .site-footer, .page-wrap:after {
+      height: 60px;
+    }
+    .site-footer {
+      background: red;
+      justify-content:center;
+      align-items:center;
+      display:flex;
+    }
+
+    div.a {
+       width:640px;
+       margin-left: auto;
+       margin-right: auto;
+    }
+
+    .texty {
+       margin:auto;
+     }
+
+     h1 {
+       color:grey;
+     }
+  </style>
+</head>
+<body>
+  <div class="page-wrap">
+
+    <div class="a">
+      <h1>Lorem ipsum dolor sit amet,</h1> consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut. Maecenas imperdiet felis nisi, fringilla luctus felis hendrerit sit amet. Pellentesque interdum, nisl nec interdum maximus, augue diam porttitor lorem, et sollicitudin felis neque sit amet erat.
+    </div>
+
+  </div>
+
+  <footer class="site-footer">
+    <div class="texty">Hello there</div>
+  </footer>
+</body>
+</html>
