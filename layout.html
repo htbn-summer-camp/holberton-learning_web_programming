@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<style>
+.container1{
+  border-style: solid;
+  border-width: 3px;
+  height: 100px;
+}
+
+.container2{
+  border-style: solid;
+  border-width: 3px;
+  height: 30px;
+}
+p{
+  margin-top:40px;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#content-wrap {
+  padding-bottom: 2.5rem;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
+</style>
+</head>
+<body>
+  <div id="page-container">
+   <div id="content-wrap">
+  <header>
+  <div class="container1" style="background-color:grey"><center><p>Hello</p></center></div>
+  </header>
+  <div class="row">
+    <div class="column" style="background-color:blue;">
+      <h2>Column 1</h2>
+      <p>Some text..</p>
+    </div>
+    <div class="column" style="background-color:white;">
+      <h2>Column 2</h2>
+      <p>Some text..</p>
+    </div>
+    <div class="column" style="background-color:red;">
+      <h2>Column 3</h2>
+      <p>Some text..</p>
+    </div>
+  </div>
+
+   </div>
+   <footer id="footer"><div class="container2">Hello</div></footer>
+ </div
+</body>
+</html>
