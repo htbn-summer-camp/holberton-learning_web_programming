@@ -1,5 +1,5 @@
-let a = 0
-while (a < 11) {
-  console.log(a);
-  a++;
+let e = 0
+while (e < 11) {
+  console.log(e);
+  e++;
 }
