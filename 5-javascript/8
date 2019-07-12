@@ -5,7 +5,7 @@
 <script>
   document.getElementById("button").style.background='yellow';
   function myFunction(){
-    alert("“Surprise!”");
+    alert("Surprise!");
   }
 </script>
 </body>
