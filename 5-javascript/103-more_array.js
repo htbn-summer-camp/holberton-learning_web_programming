@@ -1,8 +1,8 @@
-var i = 100
-while (i > -1){
+var i = 0
+while (i < 101){
   if (i % 2 == 0){
     console.log(i)
   }
-  i--;
+  i++;
 }
     
