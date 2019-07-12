@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <input type = "button" id = "button" onclick="myFunction()" value="Mystery button" backgroundColor=#A9A9A9>
+<script>
+  document.getElementById("button").style.background='yellow';
+  function myFunction(){
+    alert("“Surprise!”");
+  }
+</script>
+</body>
+</html>
