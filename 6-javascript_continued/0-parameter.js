@@ -1,1 +1,1 @@
-console.log(process.6-javascript_continued);
+console.log(process.argv);
