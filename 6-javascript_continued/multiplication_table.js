@@ -13,6 +13,7 @@
         console.log(b)
         var b = b + a
         }
+    }
       a++;
       var b = a;
       }
