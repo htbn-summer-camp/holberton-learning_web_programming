@@ -1,1 +1,2 @@
-console.log(process.argv);
+var a = process.argv
+console.log(a[0])
