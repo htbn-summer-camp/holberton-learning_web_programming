@@ -18,7 +18,7 @@
       var b = a;
       }
   function myFunction2(){
-    document.getElementById("output").value = "";
+    clear();
   } 
 </script>
 </body>
