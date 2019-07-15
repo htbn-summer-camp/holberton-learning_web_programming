@@ -1,2 +1,3 @@
-var a = process.argv
-console.log("Here is the first passed parameter: " + a[2])
+var a = process.argv[2];
+if a > 5:
+  console.log("The value is greater than 5")
