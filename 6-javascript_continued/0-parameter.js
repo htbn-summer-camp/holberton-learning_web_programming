@@ -1,2 +1,2 @@
 var a = process.argv
-console.log("Here is the first passed parameter:" + a[0])
+console.log("Here is the first passed parameter: " + a[0])
