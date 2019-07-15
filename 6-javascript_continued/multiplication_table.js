@@ -2,8 +2,8 @@
 <html>
 <body>
   <input type = "button" id = "button" onclick="myFunction()" value="Add multiplication table" backgroundColor=#A9A9A9>
-  <input type = "button" id = "button" onclick="myFunction2()" value="Remove multiplication table" backgroundColor=#A9A9A9>
-<script>
+  <input type = "button" id = "output" onclick="myFunction2()" value="Remove multiplication table" backgroundColor=#A9A9A9>
+    <script>
   var a = 1;
   var b = a;
   document.getElementById("button").style.background='yellow';
@@ -18,7 +18,7 @@
       var b = a;
       }
   function myFunction2(){
-    console.clear();
+    document.getElementById("output").value = "";
   } 
 </script>
 </body>
